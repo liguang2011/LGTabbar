@@ -1,0 +1,16 @@
+PODS:
+  - LGTabbar (0.1.0)
+
+DEPENDENCIES:
+  - LGTabbar (from `../`)
+
+EXTERNAL SOURCES:
+  LGTabbar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LGTabbar: b3bb3c66e71d70cae5d4dc331108677ab4f6a5f7
+
+PODFILE CHECKSUM: d93faee60f8ef872a3f0bec03a8592035f7c8464
+
+COCOAPODS: 1.5.3

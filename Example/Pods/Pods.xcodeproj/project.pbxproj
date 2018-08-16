@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA7FEDB8432781F7AB738EAE8DDE29C /* Pods-LGTabbar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B55439850EE216C5ABA8FE2B3C92F3F /* Pods-LGTabbar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190CC2B7B59BA4C9505D526176BD5BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		361AD126886984BC25A4F9DA821C187E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		45C0D1FB164CD0B3C8EA2A8E3E0FFAA5 /* Pods-LGTabbar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B445EF70812675F8D1352A94B920CC /* Pods-LGTabbar_Tests-dummy.m */; };
+		5AABFB202E35B9227E1FCD4166AD0864 /* LGTabbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2ED97C185E33947D6BEAAC6D1B12C2C /* LGTabbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E47E0D7E725AFE23036F78A5D90C6E /* Pods-LGTabbar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E622D682CD3DBA510B8FF9177545C8 /* Pods-LGTabbar_Example-dummy.m */; };
+		83BC760321257121001F5449 /* LGTabbarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BC760121257121001F5449 /* LGTabbarManager.h */; };
+		83BC760421257121001F5449 /* LGTabbarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC760221257121001F5449 /* LGTabbarManager.m */; };
+		94B306400181786EFC904908D0C29582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B690BD89ED4D5D1211525DD4A0595FB4 /* LGTabbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 757ED612363ABC02F2F855D9804E8C92 /* LGTabbar-dummy.m */; };
+		D46327EFA736987AC318DE6941C01BA2 /* Pods-LGTabbar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A004D926F9D1F453893C03E237C1A2 /* Pods-LGTabbar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A1ED96746E7C00A837E840BB11FAD8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD02D6D5C8AE65D5A2CE8AADB9591B0B;
+			remoteInfo = LGTabbar;
+		};
+		581ABBEECA1E62982A331F72E59646DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC04B2B83792AF3BD3A9C1ED6E5B646;
+			remoteInfo = "Pods-LGTabbar_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0309068E2E2B8747009ABE652C77B99C /* Pods-LGTabbar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGTabbar_Example.modulemap"; sourceTree = "<group>"; };
+		0B83BAA6ACD50FC1C7F854D6E38AD453 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A004D926F9D1F453893C03E237C1A2 /* Pods-LGTabbar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGTabbar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		14DAAA28A15AC1BEE8F766080AE4B27A /* Pods-LGTabbar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGTabbar_Example-resources.sh"; sourceTree = "<group>"; };
+		1B55439850EE216C5ABA8FE2B3C92F3F /* Pods-LGTabbar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGTabbar_Example-umbrella.h"; sourceTree = "<group>"; };
+		1C737B60B9F261CC1FDECF8F24EF03C0 /* Pods-LGTabbar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGTabbar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D71925FAB658B98900A48BC32645690 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F70F82EDD89F0FD7A2A40559212E9C1 /* LGTabbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGTabbar-prefix.pch"; sourceTree = "<group>"; };
+		3F0BF67FAE2FA6E7CCE11FC5B72D3C2F /* Pods-LGTabbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGTabbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		404B5BEFA6D1F59D570C7E83D8F38F44 /* Pods-LGTabbar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGTabbar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		48B445EF70812675F8D1352A94B920CC /* Pods-LGTabbar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGTabbar_Tests-dummy.m"; sourceTree = "<group>"; };
+		518E4F89E9E061BDD7BDD79A5FDEFFB3 /* Pods-LGTabbar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGTabbar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		59E05C7DE873232540A4E59CFC6EB0B5 /* LGTabbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGTabbar.xcconfig; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5DD50DB6AE73DCD53BB510DB18A91972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5F270901DC9CA2ED4194DFFE8850095A /* Pods-LGTabbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGTabbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F4375618AB62836AF54DAA83B2CD490 /* Pods-LGTabbar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGTabbar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		757ED612363ABC02F2F855D9804E8C92 /* LGTabbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGTabbar-dummy.m"; sourceTree = "<group>"; };
+		773ABF24F068EE1A95EC525FFC8AD7B5 /* LGTabbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGTabbar.modulemap; sourceTree = "<group>"; };
+		77799434759D103DFB88284B094B29EB /* Pods-LGTabbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGTabbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7BCF488381C9EC6AE6E73837BD21E663 /* Pods_LGTabbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGTabbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E034CF68003073FA648F40D8E171E00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BC760121257121001F5449 /* LGTabbarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LGTabbarManager.h; path = LGTabbar/Classes/mannager/LGTabbarManager.h; sourceTree = "<group>"; };
+		83BC760221257121001F5449 /* LGTabbarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LGTabbarManager.m; path = LGTabbar/Classes/mannager/LGTabbarManager.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF5176499474EAFEB10E80277CFF83FE /* Pods-LGTabbar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGTabbar_Tests.modulemap"; sourceTree = "<group>"; };
+		C2ED97C185E33947D6BEAAC6D1B12C2C /* LGTabbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGTabbar-umbrella.h"; sourceTree = "<group>"; };
+		C6D82294FE1B56528456B70EBE253113 /* Pods-LGTabbar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGTabbar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB280AB80BDC6AEFC4CB100268FE7162 /* LGTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E20CE4C13469533C9E183DB80E8BBB /* LGTabbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LGTabbar.podspec; sourceTree = "<group>"; };
+		D7C944CA7CA823E7ED8CC5C2A3FBE9A3 /* Pods-LGTabbar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGTabbar_Tests-resources.sh"; sourceTree = "<group>"; };
+		E0E7AAAA1C4D63365A81240899D68C6E /* Pods-LGTabbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGTabbar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E4599DF33B8FD638CAF321D8A4E4BEB9 /* Pods-LGTabbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGTabbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6B4F74EDE39E773156E1230A7A45795 /* Pods_LGTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGTabbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E622D682CD3DBA510B8FF9177545C8 /* Pods-LGTabbar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGTabbar_Example-dummy.m"; sourceTree = "<group>"; };
+		F40E33D31869C516F1A64B10CC629348 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3114BDE13B53B5FBD2F98B3606732F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190CC2B7B59BA4C9505D526176BD5BF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D992CB4F2AA568B42F09268DD5E3D0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B306400181786EFC904908D0C29582 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4B48BAF25E84C3AEA0E8517ACA992D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361AD126886984BC25A4F9DA821C187E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5666ACBBE350D05E9111E4B7D3A209 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D5E20CE4C13469533C9E183DB80E8BBB /* LGTabbar.podspec */,
+				5DD50DB6AE73DCD53BB510DB18A91972 /* LICENSE */,
+				F40E33D31869C516F1A64B10CC629348 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4B21BEB6F35AF9DBC327AE711DF56B6C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				603BBF0771AFFFECD1D554BD3E21E325 /* Pods-LGTabbar_Example */,
+				ED35948CB242FBBA3E8DFF21C6AB203E /* Pods-LGTabbar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55252FCC91D550B1BA002FD6DAFBBFF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F23D41A9740EE7261156C651B94291B9 /* LGTabbar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		603BBF0771AFFFECD1D554BD3E21E325 /* Pods-LGTabbar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0B83BAA6ACD50FC1C7F854D6E38AD453 /* Info.plist */,
+				0309068E2E2B8747009ABE652C77B99C /* Pods-LGTabbar_Example.modulemap */,
+				1C737B60B9F261CC1FDECF8F24EF03C0 /* Pods-LGTabbar_Example-acknowledgements.markdown */,
+				E4599DF33B8FD638CAF321D8A4E4BEB9 /* Pods-LGTabbar_Example-acknowledgements.plist */,
+				F0E622D682CD3DBA510B8FF9177545C8 /* Pods-LGTabbar_Example-dummy.m */,
+				518E4F89E9E061BDD7BDD79A5FDEFFB3 /* Pods-LGTabbar_Example-frameworks.sh */,
+				14DAAA28A15AC1BEE8F766080AE4B27A /* Pods-LGTabbar_Example-resources.sh */,
+				1B55439850EE216C5ABA8FE2B3C92F3F /* Pods-LGTabbar_Example-umbrella.h */,
+				77799434759D103DFB88284B094B29EB /* Pods-LGTabbar_Example.debug.xcconfig */,
+				E0E7AAAA1C4D63365A81240899D68C6E /* Pods-LGTabbar_Example.release.xcconfig */,
+			);
+			name = "Pods-LGTabbar_Example";
+			path = "Target Support Files/Pods-LGTabbar_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				55252FCC91D550B1BA002FD6DAFBBFF6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				84F149C6ECE5286DB73D80DDE8F235ED /* Products */,
+				4B21BEB6F35AF9DBC327AE711DF56B6C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84F149C6ECE5286DB73D80DDE8F235ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB280AB80BDC6AEFC4CB100268FE7162 /* LGTabbar.framework */,
+				7BCF488381C9EC6AE6E73837BD21E663 /* Pods_LGTabbar_Example.framework */,
+				E6B4F74EDE39E773156E1230A7A45795 /* Pods_LGTabbar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED35948CB242FBBA3E8DFF21C6AB203E /* Pods-LGTabbar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E034CF68003073FA648F40D8E171E00 /* Info.plist */,
+				AF5176499474EAFEB10E80277CFF83FE /* Pods-LGTabbar_Tests.modulemap */,
+				C6D82294FE1B56528456B70EBE253113 /* Pods-LGTabbar_Tests-acknowledgements.markdown */,
+				5F4375618AB62836AF54DAA83B2CD490 /* Pods-LGTabbar_Tests-acknowledgements.plist */,
+				48B445EF70812675F8D1352A94B920CC /* Pods-LGTabbar_Tests-dummy.m */,
+				404B5BEFA6D1F59D570C7E83D8F38F44 /* Pods-LGTabbar_Tests-frameworks.sh */,
+				D7C944CA7CA823E7ED8CC5C2A3FBE9A3 /* Pods-LGTabbar_Tests-resources.sh */,
+				10A004D926F9D1F453893C03E237C1A2 /* Pods-LGTabbar_Tests-umbrella.h */,
+				3F0BF67FAE2FA6E7CCE11FC5B72D3C2F /* Pods-LGTabbar_Tests.debug.xcconfig */,
+				5F270901DC9CA2ED4194DFFE8850095A /* Pods-LGTabbar_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGTabbar_Tests";
+			path = "Target Support Files/Pods-LGTabbar_Tests";
+			sourceTree = "<group>";
+		};
+		F23D41A9740EE7261156C651B94291B9 /* LGTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				83BC760121257121001F5449 /* LGTabbarManager.h */,
+				83BC760221257121001F5449 /* LGTabbarManager.m */,
+				1E5666ACBBE350D05E9111E4B7D3A209 /* Pod */,
+				F466E63858E3871786A7502DBDFD201C /* Support Files */,
+			);
+			name = LGTabbar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F466E63858E3871786A7502DBDFD201C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D71925FAB658B98900A48BC32645690 /* Info.plist */,
+				773ABF24F068EE1A95EC525FFC8AD7B5 /* LGTabbar.modulemap */,
+				59E05C7DE873232540A4E59CFC6EB0B5 /* LGTabbar.xcconfig */,
+				757ED612363ABC02F2F855D9804E8C92 /* LGTabbar-dummy.m */,
+				2F70F82EDD89F0FD7A2A40559212E9C1 /* LGTabbar-prefix.pch */,
+				C2ED97C185E33947D6BEAAC6D1B12C2C /* LGTabbar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGTabbar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		141EB7A1D7075E29681B158D4FB7A046 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46327EFA736987AC318DE6941C01BA2 /* Pods-LGTabbar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6A9B711E6CAAA954358A81472AEA27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA7FEDB8432781F7AB738EAE8DDE29C /* Pods-LGTabbar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D0A6EBF60507B25CA5598E7CFE5344 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AABFB202E35B9227E1FCD4166AD0864 /* LGTabbar-umbrella.h in Headers */,
+				83BC760321257121001F5449 /* LGTabbarManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EBF8F5DC2C3BE8F7A1C2816F388CCF4 /* Pods-LGTabbar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8AE337699ED5316E03E8C84608E590F /* Build configuration list for PBXNativeTarget "Pods-LGTabbar_Tests" */;
+			buildPhases = (
+				F93290ABC2CB7C8CFCD968D51E77072C /* Sources */,
+				FF4B48BAF25E84C3AEA0E8517ACA992D /* Frameworks */,
+				141EB7A1D7075E29681B158D4FB7A046 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEEF87CED2E71D51A348B07D2C1E2437 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGTabbar_Tests";
+			productName = "Pods-LGTabbar_Tests";
+			productReference = E6B4F74EDE39E773156E1230A7A45795 /* Pods_LGTabbar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD02D6D5C8AE65D5A2CE8AADB9591B0B /* LGTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9403EBE2CCD872D89759F67E19E8C091 /* Build configuration list for PBXNativeTarget "LGTabbar" */;
+			buildPhases = (
+				0A2E8EB790439B4BBE7276BE2420A166 /* Sources */,
+				B3114BDE13B53B5FBD2F98B3606732F9 /* Frameworks */,
+				C5D0A6EBF60507B25CA5598E7CFE5344 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGTabbar;
+			productName = LGTabbar;
+			productReference = CB280AB80BDC6AEFC4CB100268FE7162 /* LGTabbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEC04B2B83792AF3BD3A9C1ED6E5B646 /* Pods-LGTabbar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A9D0E795F4A4B5C8D09757EF89A2A4C /* Build configuration list for PBXNativeTarget "Pods-LGTabbar_Example" */;
+			buildPhases = (
+				8120FCABAB42C36C69B4533318232D28 /* Sources */,
+				D992CB4F2AA568B42F09268DD5E3D0C8 /* Frameworks */,
+				8E6A9B711E6CAAA954358A81472AEA27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5499D26144E6267A0302C684F8068262 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGTabbar_Example";
+			productName = "Pods-LGTabbar_Example";
+			productReference = 7BCF488381C9EC6AE6E73837BD21E663 /* Pods_LGTabbar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 84F149C6ECE5286DB73D80DDE8F235ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD02D6D5C8AE65D5A2CE8AADB9591B0B /* LGTabbar */,
+				EEC04B2B83792AF3BD3A9C1ED6E5B646 /* Pods-LGTabbar_Example */,
+				0EBF8F5DC2C3BE8F7A1C2816F388CCF4 /* Pods-LGTabbar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2E8EB790439B4BBE7276BE2420A166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BC760421257121001F5449 /* LGTabbarManager.m in Sources */,
+				B690BD89ED4D5D1211525DD4A0595FB4 /* LGTabbar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8120FCABAB42C36C69B4533318232D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E47E0D7E725AFE23036F78A5D90C6E /* Pods-LGTabbar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93290ABC2CB7C8CFCD968D51E77072C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C0D1FB164CD0B3C8EA2A8E3E0FFAA5 /* Pods-LGTabbar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5499D26144E6267A0302C684F8068262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGTabbar;
+			target = BD02D6D5C8AE65D5A2CE8AADB9591B0B /* LGTabbar */;
+			targetProxy = 4A1ED96746E7C00A837E840BB11FAD8E /* PBXContainerItemProxy */;
+		};
+		DEEF87CED2E71D51A348B07D2C1E2437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGTabbar_Example";
+			target = EEC04B2B83792AF3BD3A9C1ED6E5B646 /* Pods-LGTabbar_Example */;
+			targetProxy = 581ABBEECA1E62982A331F72E59646DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		542BBC9146A77D2208F02507929D12DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E7AAAA1C4D63365A81240899D68C6E /* Pods-LGTabbar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGTabbar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGTabbar_Example/Pods-LGTabbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56AD51544F8B42892EFB93351C5E7154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0BF67FAE2FA6E7CCE11FC5B72D3C2F /* Pods-LGTabbar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGTabbar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGTabbar_Tests/Pods-LGTabbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BACE31FF15C20D26883FE137DED14FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E05C7DE873232540A4E59CFC6EB0B5 /* LGTabbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGTabbar/LGTabbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGTabbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGTabbar/LGTabbar.modulemap";
+				PRODUCT_MODULE_NAME = LGTabbar;
+				PRODUCT_NAME = LGTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9D28CD9234EC2DE94CE20F0D6E696AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E05C7DE873232540A4E59CFC6EB0B5 /* LGTabbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGTabbar/LGTabbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGTabbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGTabbar/LGTabbar.modulemap";
+				PRODUCT_MODULE_NAME = LGTabbar;
+				PRODUCT_NAME = LGTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C715E27D218EAA7CF369D1519116903E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F270901DC9CA2ED4194DFFE8850095A /* Pods-LGTabbar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGTabbar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGTabbar_Tests/Pods-LGTabbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0055692B8F55EDFB2F3C1373BF6D31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77799434759D103DFB88284B094B29EB /* Pods-LGTabbar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGTabbar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGTabbar_Example/Pods-LGTabbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A9D0E795F4A4B5C8D09757EF89A2A4C /* Build configuration list for PBXNativeTarget "Pods-LGTabbar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0055692B8F55EDFB2F3C1373BF6D31B /* Debug */,
+				542BBC9146A77D2208F02507929D12DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9403EBE2CCD872D89759F67E19E8C091 /* Build configuration list for PBXNativeTarget "LGTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D28CD9234EC2DE94CE20F0D6E696AE5 /* Debug */,
+				7BACE31FF15C20D26883FE137DED14FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8AE337699ED5316E03E8C84608E590F /* Build configuration list for PBXNativeTarget "Pods-LGTabbar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AD51544F8B42892EFB93351C5E7154 /* Debug */,
+				C715E27D218EAA7CF369D1519116903E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

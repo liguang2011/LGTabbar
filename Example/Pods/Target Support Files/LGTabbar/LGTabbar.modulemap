@@ -1,0 +1,6 @@
+framework module LGTabbar {
+  umbrella header "LGTabbar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		029C07A6C6364501629E7553 /* LGTabbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LGTabbar.podspec; path = ../LGTabbar.podspec; sourceTree = "<group>"; };
+		029C07A6C6364501629E7553 /* LGTabbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGTabbar.podspec; path = ../LGTabbar.podspec; sourceTree = "<group>"; };
 		5AD5D1D9D608AF7F57931D5B /* Pods_LGTabbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGTabbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LGTabbar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGTabbar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,12 +58,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6900E0424FEDA650CD67B976 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6900E0424FEDA650CD67B976 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6B3F3A639D41CD0303824D9 /* Pods-LGTabbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGTabbar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGTabbar_Example/Pods-LGTabbar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B8B93AE44D2F1528D5B3BF06 /* Pods-LGTabbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGTabbar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGTabbar_Example/Pods-LGTabbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B9026B7B5D01E5CE94F09DA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B9026B7B5D01E5CE94F09DA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CAF73D63C2204880C1B969E8 /* Pods_LGTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGTabbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD696762D85EDC6C7357FC9E /* Pods-LGTabbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGTabbar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGTabbar_Tests/Pods-LGTabbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E44D8AF006CB82518B5B3EA5 /* Pods-LGTabbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGTabbar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGTabbar_Tests/Pods-LGTabbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "553521355@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = K7M5Q2DUD5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,11 +488,12 @@
 			baseConfigurationReference = B8B93AE44D2F1528D5B3BF06 /* Pods-LGTabbar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K7M5Q2DUD5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGTabbar/LGTabbar-Prefix.pch";
 				INFOPLIST_FILE = "LGTabbar/LGTabbar-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.LGTabbar-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -500,11 +504,12 @@
 			baseConfigurationReference = A6B3F3A639D41CD0303824D9 /* Pods-LGTabbar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K7M5Q2DUD5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGTabbar/LGTabbar-Prefix.pch";
 				INFOPLIST_FILE = "LGTabbar/LGTabbar-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.LGTabbar-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

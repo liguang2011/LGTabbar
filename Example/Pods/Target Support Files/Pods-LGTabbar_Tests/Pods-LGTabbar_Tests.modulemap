@@ -1,0 +1,6 @@
+framework module Pods_LGTabbar_Tests {
+  umbrella header "Pods-LGTabbar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
