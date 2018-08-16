@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGTabbar_Example' do
+  pod 'LGTabbar', :path => '../'
+
+  target 'LGTabbar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
